@@ -35,13 +35,13 @@ function App() {
     </nav>
 
     <main>
-        <section id="s1">
+        <section id="s1" className={s.s1}>
             <h1 className={s.titulo}>Campeões Olympia</h1>
             <h2>As exceções da regra.</h2>
             <a className={s.botao} href="#s4">Oque é Mr. Olympia?</a>
         </section>
 
-        <section id="s2">
+        <section id="s2" className={s.s2}>
 
                 <div className={s.divi}>
                     <h1 className={s.theones}>The ones</h1>
@@ -82,7 +82,7 @@ function App() {
 
             </section>
 
-        <section id="s3">
+        <section id="s3" className={s.s3}>
             <div className={s.vid}>
                 <iframe  width="100%" height="450" src="https://www.youtube.com/embed/MHPmV1wEsjs?si=d0lwSjuB3FzGJ2Se" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <div className={s.borda}></div>    
@@ -97,7 +97,7 @@ function App() {
             </div>
         </section>
 
-        <section id="s4">
+        <section id="s4" className={s.s4}>
             </section>
     </main>    
     
