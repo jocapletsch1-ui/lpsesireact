@@ -18,7 +18,7 @@ function App() {
             <span className="navWords">Campeões Olympia</span>
         </a>
 
-        <a className="{s.navItems}" href="#s2">
+        <a id='sixseven' className={s.navItems} href="#s2">
             <img src={image2} alt="Golden Era"/>
             <span className="navWords">The Best</span>
         </a>
@@ -79,12 +79,13 @@ function App() {
                     </div>
 
                 </div>
-
+                
             </section>
+            <hr />
 
         <section id="s3" className={s.s3}>
             <div className={s.vid}>
-                <iframe  width="100%" height="450" src="https://www.youtube.com/embed/MHPmV1wEsjs?si=d0lwSjuB3FzGJ2Se" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/MHPmV1wEsjs?si=d0lwSjuB3FzGJ2Se" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <div className={s.borda}></div>    
             </div>
             
